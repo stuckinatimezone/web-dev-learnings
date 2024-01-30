@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /*
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(0, 58%, 51%);
+    /*
+    align-self: end;
+    order: -1*/
+
+}
+#box2{
+    background-color: hsl(60, 86%, 44%);
+    
+}
+#box3{
+    background-color: hsl(120, 81%, 58%);
+}
+#box4{
+    background-color: hsl(240, 51%, 49%);
+}

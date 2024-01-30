@@ -1,0 +1,101 @@
+@font-face{
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: OpenSans;
+}
+
+@font-face{
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: Roboto-Light;
+}
+
+h1{
+    font-family: Roboto-Light, verdana, arial;
+}
+p{
+    font-family: OpenSans;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+.secondheader{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(93, 12, 174);
+    border-radius: 20px;
+}
+#forborder1{
+    border: 3px solid rgb(147, 15, 173);
+    border-radius: 20px;
+}
+#forborder2{
+    border-bottom: 3px solid rgb(148, 27, 27);
+}
+#forborder3{
+    border-top: 3px double rgb(168, 168, 23);
+}
+#forborder4{
+    border-left: 3px dotted rgb(255, 184, 53);
+}
+#forborder5{
+    border-right: 3px ridge rgb(46, 212, 46);
+}
+#forborder6{
+    border-style: inset;
+}
+#forboder7{
+    border-style: outset;
+}
+#forborder8{
+    border-bottom: 3px solid red;
+    border-right: 3px dotted yellow;
+    border-left: 3px double green;
+    border-top: 3px dashed blue;
+
+    border-radius: 10px;
+}
+
+.thirdheader{
+    text-shadow: 3px 3px 5px rgb(171, 27, 27), -3px -3px 5px rgb(40, 37, 220);
+}
+#box0{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 149, 149);
+    box-shadow: 3px 3px 5px;
+}
+body{
+    margin:0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: rgb(97, 9, 9);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#box2{
+    background-color: rgb(39, 39, 98);
+    /* The above 4 lines of code can he shortened in one line */
+    margin: 50px;
+}
+
+.box1{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#box3{
+    background-color: rgb(255, 74, 74);
+    
+}
+#box4{
+    background-color: rgb(164, 164, 255);
+}

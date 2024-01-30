@@ -1,0 +1,15 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(105, 105, 241);
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(122, 34, 34);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

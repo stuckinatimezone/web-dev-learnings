@@ -1,0 +1,67 @@
+a:link {
+    color: rgb(8, 160, 255);
+}
+a:hover{
+    color: blue;
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+}
+a:visited{
+    color: rgb(34, 230, 34);
+}
+.list:hover {
+    background-color: rgb(255, 255, 152);
+}
+.list:not(:hover){
+    background-color: rgb(203, 203, 203);
+}
+.list:nth-child(3n+2){
+    /*In the 'odd' place use 1n,2n,3n or even to select items accordingly
+    or example 3n+1 (every third element beginning from 1)*/
+    background-color: rgb(255, 255, 142);
+}
+#greeting{
+    #hello{
+        background-color: rgb(149, 149, 255);
+        padding: 10px;
+        display: none;
+    }   
+}
+#greeting:hover{
+    #hello{
+        display: block;
+    }
+}
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+#para::first-line{
+    background-color: rgb(252, 252, 182);
+}
+#para::selection{
+    color: rgb(39, 255, 39);
+    background-color: rgb(71, 68, 68);
+}
+/*#fruit li::before{
+    content: "✅"
+    You can use this if you want the bullet buttons of 
+    unordered list before your elements
+*/
+#apple::after{
+    content: "🍎"
+}
+#orange::after{
+    content: "🍊"
+}
+#banana::after{
+    content: "🍌"
+}
+#fruit li::marker{
+    content:"✔️";
+    font-size: 1.2em;
+    color: rgb(255, 25, 25); /*this doesn't work for windows*/
+}
